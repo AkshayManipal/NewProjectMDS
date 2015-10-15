@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+.clearfix:before, .clearfix:after{content: ""; display: table}
+.clearfix:after{clear: both;}
+.clearfix{zoom: 1;}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+html,body{
+	background: #ff4f4f;
+	color: #000;
+}
+
+body{
+	padding: 10px;
+}
+a.logo{
+	max-width: 200px;
+	display: block;
+}
+
+a.logo img{
+	display: block;
+	width: 100%;
+}
+
+a{
+	color: #fff;
+	font-size: 25px;
+}
+
+a:hover{
+	color: #004f99;
+}
+
+.wrapper{
+	width: 90%;
+	margin:0 auto;
+}
+
+#container{
+	margin: 20px 0;
+}
+
+ul.navigation li{
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+
+footer{
+	text-align: center;
+	font-size: 25px;
+}
