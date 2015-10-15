@@ -12,6 +12,12 @@
 	float:right;
 }
 
+*,*:before,*:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html,body{
 	background: #ff4f4f;
 	color: #000;
@@ -107,3 +113,11 @@ footer{
 	height: 60px;
 	border: thin solid #fff;
 }
+
+/*Added by Akshay*/
+h1{
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+}
+/*END Added by Akshay*/
