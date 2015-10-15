@@ -58,6 +58,19 @@ footer{
 	text-align: center;
 	font-size: 25px;
 }
+/*Aboutus*/
+#container .quality{
+	text-align: center;
+	margin-top: 50px;
+}
+#container .policy{
+	font-size: 30px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
 /*Contact Page*/
 .contact h2{
 	font-size:35px;
